@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Construction-Tender.jpg)
+}
+
+header {
+    background-color: #1fbcec;
+    color: #eeeae5;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: hsl(41, 62%, 95%);
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f89808;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    float: left; /* Float the logo to the left */
+    margin-right: 20px; /* Add some space to the right of the logo */
+}
+
+/* Adjust the size of the logo if needed */
+.logo img {
+    width: 200px; /* Set the width of the logo */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 40px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #de0afa;
+    color: #d9d6f3;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
